@@ -18,7 +18,8 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-fetch('/ping')
-  .then((res) => {
-    console.log(res.text());
+fetch('/api/ping')
+  .then((res) => res.text())
+  .then((txt) => {
+    console.log(txt);
   });

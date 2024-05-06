@@ -10,6 +10,10 @@ def index(request):
     output = ', '.join([q.question_text for q in latest_question_list])
     return HttpResponse(output)
 
+def list_answers(request):
+    response = "You're looking at the list of answers."
+    return HttpResponse(response)
+
 def read_answers(request, question_id):
     response = f"You're looking at the answers to question {question_id}."
     return HttpResponse(response)
