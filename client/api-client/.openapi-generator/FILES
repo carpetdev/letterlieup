@@ -1,0 +1,9 @@
+.openapi-generator-ignore
+apis/QuestionsApi.ts
+apis/SchemaApi.ts
+apis/index.ts
+index.ts
+models/PatchedQuestion.ts
+models/Question.ts
+models/index.ts
+runtime.ts

@@ -10,6 +10,6 @@ urlpatterns = [
 ]
 
 router = DefaultRouter()
-router.register('', views.QuestionViewSet)
+router.register('questions', views.QuestionViewSet)
 
 urlpatterns += router.urls
